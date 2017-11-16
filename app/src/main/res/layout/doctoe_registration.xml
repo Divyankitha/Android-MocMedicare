@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:text="Welcome "
+        android:id="@+id/textView12"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_height="40dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="Speciality"
+        android:textSize="20dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_width="155dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="100dp"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toStartOf="@+id/password_patient"
+        android:layout_marginEnd="26dp"
+        android:id="@+id/button6"
+        android:background="@color/colorPrimary"
+        android:onClick="finishDoctorRegistration"
+        android:layout_height="40dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:text="Sign In"
+        android:layout_width="100dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="42dp"
+        android:id="@+id/button5"
+        android:layout_marginEnd="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/password_patient"
+        android:background="@color/colorPrimary"
+        android:onClick="LoginDoctorRegistration"
+        android:layout_height="40dp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/license"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_marginStart="14dp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/password_patient"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_alignStart="@+id/uname_doc"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/sthethoscope"
+        android:id="@+id/imageView"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:text="Clinic Address"
+        android:textSize="20dp"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView10"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="Username"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:id="@+id/textView18"
+        android:layout_width="155dp"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="Password"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:id="@+id/textView19"
+        android:layout_width="155dp"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/clinic"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignStart="@+id/license"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/uname_doc"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_alignStart="@+id/clinic"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text=" Kindly complete the following form."
+        android:textSize="20dp"
+        android:id="@+id/textView15"
+        android:layout_marginTop="13dp"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/textView17"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lname_doc"
+        android:textSize="25dp"
+        android:layout_below="@+id/textView12"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <Spinner
+        android:id="@+id/dropDown"
+        android:layout_width="150dp"
+        android:dropDownWidth="150dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView10"
+        android:layout_alignStart="@+id/clinic" />
+
+    <TextView
+        android:text="License Number "
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView16"
+        android:layout_marginStart="33dp"
+        android:layout_width="155dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:textAlignment="textEnd" />
+
+</RelativeLayout>

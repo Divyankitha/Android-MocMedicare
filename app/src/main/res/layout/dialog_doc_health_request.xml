@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/doc_health_req_desc"
+        android:layout_marginLeft="@dimen/et_padding"
+        android:layout_marginStart="@dimen/et_padding"
+        android:layout_marginTop="@dimen/et_padding"/>
+
+    <EditText
+        android:id="@+id/edit_dialog_health_req_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/et_padding"
+        android:layout_marginStart="@dimen/et_padding"/>
+
+
+
+</LinearLayout>

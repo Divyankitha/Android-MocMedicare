@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--font size-->
+    <dimen name="title_big_font_size">24sp</dimen>
+    <dimen name="title_font_size">22sp</dimen>
+    <dimen name="tv_header_size">20sp</dimen>
+    <dimen name="tv_body_content">16sp</dimen>
+    <dimen name="tv_font_size">20sp</dimen>
+
+    <!--card layout-->
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+
+
+    <!--margin-->
+    <dimen name="et_padding">5dp</dimen>
+    <dimen name="btn_padding">10dp</dimen>
+    <dimen name="spinner_margin">10dp</dimen>
+    <dimen name="tv_left_margin">2dp</dimen>
+
+    <dimen name="tv_body_size">16sp</dimen>
+
+    <!--font size-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dot">1px</dimen>
+
+</resources>

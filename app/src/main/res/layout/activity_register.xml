@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F0F8FF">
+
+    <TextView
+        android:text="Welcome "
+        android:textSize="30dp"
+        android:id="@+id/textView12"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="Mr.lastname"
+        android:textSize="30dp"
+        android:id="@+id/textView13"
+        android:layout_width="200dp"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="License Number "
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_width="155dp"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:text="Speciality"
+        android:textSize="20dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_width="155dp"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:text=" Kindly complete the following form."
+        android:textSize="20dp"
+        android:id="@+id/textView15"
+        android:layout_marginTop="12dp"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView16" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toStartOf="@+id/editText11"
+        android:layout_marginEnd="26dp"
+        android:id="@+id/button6"
+        android:background="#FA8072" />
+
+    <Button
+        android:text="Sign In"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="42dp"
+        android:id="@+id/button5"
+        android:layout_marginEnd="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/editText11"
+        android:background="#7BCC70" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#ffff"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="A-1124324"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_marginStart="14dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:background="#ffff"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="Cardiology/Oncology..."
+        android:layout_alignTop="@+id/textView17"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:background="#ffff"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_alignStart="@+id/editText3" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="textPassword"
+        android:background="#ffff"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_alignStart="@+id/editText10" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/sthethoscope"
+        android:id="@+id/imageView"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_marginStart="13dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="#ffff"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignStart="@+id/editText3"
+        android:id="@+id/editText9" />
+
+    <TextView
+        android:text="Clinic Address"
+        android:textSize="20dp"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView10"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17" />
+
+    <TextView
+        android:text="Username"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:id="@+id/textView18"
+        android:layout_width="155dp"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:text="Password"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:id="@+id/textView19"
+        android:layout_width="155dp"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="21dp" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a4c88</color>
+    <color name="colorPrimaryDark">#1a4c88</color> 
+    <color name="colorAccent">#4f81bd</color>
+
+    <color name="colorGrey">#e0e0e0</color>
+    <color name="colorGreyDark">#9e9e9e</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="white">#FFF</color>
+
+    <color name="yellowColor">#ffaa00</color>
+    <color name="redColor">#cc3300</color>
+    <color name="greenColor">#00994d</color>
+
+    <color name="white_overlay_8x">#000000</color>
+    <color name="colorGray">#dddddd</color>
+
+    <color name="colorAboutBackground">#ab201e</color>
+    <color name="colorAboutPrimary">#9e2020</color>
+    <color name="colorAboutPrimaryDark">#9e2020</color>
+    <color name="colorAboutAccent">#9e2020</color>
+
+    <color name="colorDetailBackground">#191d50</color>
+    <color name="colorDetailPrimary">#191d50</color>
+    <color name="colorDetailPrimaryDark">#191d50</color>
+    <color name="colorDetailAccent">#191d50</color>
+
+</resources>

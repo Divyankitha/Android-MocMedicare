@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fitbit_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/card_margin"
+        android:layout_marginRight="@dimen/card_margin"
+        android:elevation="@dimen/card_elevation"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/img_fitbit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0.5"
+                android:gravity="start"/>
+
+            <TextView
+                android:id="@+id/text_fitbit_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/tv_header_size"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1.5"
+                android:gravity="start|center_vertical"/>
+
+            <TextView
+                android:id="@+id/text_fitbit_val"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="0.5"
+                android:gravity="right|center_vertical"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

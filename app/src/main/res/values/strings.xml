@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">MoC Medicare</string>
+
+    <string name="team_name">Appoholics</string>
+
+    <!--Doctor home activity-->
+    <string name="home_activity_title">Home</string>
+
+    <!--LauncherActivity screen menu title-->
+    <string-array name="doc_nav_drawer_items">
+        <item>Home</item>
+        <item>Appointments</item>
+        <item>Patients</item>
+        <item>Log Out</item>
+    </string-array>
+    <array name="doc_nav_drawer_icons">
+        <item>@drawable/menu_home</item>
+        <item>@drawable/ic_appointment</item>
+        <item>@drawable/ic_patients</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <!--Doctor Appointment Activity-->
+    <string name="appointment_title">Appointments</string>
+
+    <!--Patient appointment activity-->
+    <string name="pat_appointment_title">Appointments</string>
+
+    <!--Patient add appointment-->
+    <string name="apmt_desc">Purpose</string>
+    <string name="apmt_date">Appointment Date</string>
+    <string name="apmt_doctor">Doctor</string>
+    <string name="add_apmt">Add Appointment</string>
+    <string name="new_apmt_title">New Appointment</string>
+    <string name="new_apmt_success_msg">Appointment Created</string>
+    <string name="new_apmt_failure_msg">Appointment is not Created.Try again</string>
+
+    <string-array name="pat_nav_drawer_items">
+        <item>Home</item>
+        <item>Appointments</item>
+        <item>Doctors</item>
+        <item>Reminders</item>
+        <item>Health Data Requests</item>
+        <item>Emergency Contact</item>
+        <item>Sources</item>
+        <item>Log Out</item>
+    </string-array>
+    <array name="pat_nav_drawer_icons">
+        <item>@drawable/menu_home</item>
+        <item>@drawable/ic_appointment</item>
+        <item>@drawable/ic_doctor</item>
+        <item>@drawable/ic_alarm</item>
+        <item>@drawable/ic_request</item>
+        <item>@drawable/ic_contact</item>
+        <item>@drawable/ic_sources</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+
+    <!--Patient Dashboard fragment-->
+    <string name="fitbit_title">Fitbit</string>
+    <string name="call_emergency">Call Emergency Contact</string>
+    <string name="call_911">Call 911</string>
+
+
+    <!--Source Activity-->
+    <string name="source_activity_title">Source</string>
+
+    <!--Fitbit Activity-->
+    <string name="fitbit_login">Fitbit Login</string>
+    <string name="fitbit_logout">Logout</string>
+    <string name="fitbit_token">#access_token</string>
+    <string name="fitbit_uid">&amp;user_id</string>
+    <string name="fitbit_token_type">&amp;token_type</string>
+    <string name="fibit_scope">&amp;scope</string>
+    <string name="fitbit_token_expiry">&amp;expires_in</string>
+
+    <string name="fitbit_sleep_title">Sleep Time</string>
+    <string name="fitbit_calories_title">Calories Burnt</string>
+    <string name="fitbit_steps_title">Steps</string>
+    <string name="fitbit_heart_rate_title">Heart Rate</string>
+
+
+    <!--Appointment Details-->
+    <string name="appointment_detail_status">Status</string>
+    <string name="appointment_id">Appointment Id</string>
+    <string name="appointment_details_title">Appointment Details</string>
+    <string name="appointment_patient_name">Patient Name</string>
+    <string name="appointment_date">Date</string>
+    <string name="appointment_description">Details</string>
+    <string name="appointment_accept">Accept</string>
+    <string name="appointment_cancel">Cancel</string>
+
+    <string name="appt_status_accepted">Accepted</string>
+    <string name="appt_status_declined">Declined</string>
+    <string name="appt_status_requested">Requested</string>
+
+    <string name="apmt_dialog_title">Appointment</string>
+    <string name="apmt_dialog_btn_ok">ok</string>
+    <string name="apmt_success_msg">Appointment status is updated successfully</string>
+    <string name="apmt_failure_msg">Your response is not updated. Please try again!</string>
+
+    <!--Dashboard fragment-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-0661921010225573/7076125939</string>
+    <string name="tasks">Tasks</string>
+    <string name="action_settings">Alarm</string>
+    <string name="action_microphone">Micropone</string>
+    <string name="title_activity_new_task">New Task</string>
+    <string name="action_save">Save</string>
+    <string name="placeholder_title">Title</string>
+    <string name="pending">Pending</string>
+    <string name="done">Done</string>
+    <string name="all">All</string>
+    <string name="placeholder_date">Date</string>
+    <string name="placeholder_description">Description</string>
+    <string name="action_calendar">Date</string>
+    <string name="action_time">Time</string>
+    <string name="select_time">Date / Time</string>
+    <string name="title_activity_view_task">View Task</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_show">Show details</string>
+    <string name="select_the_list">Select the list</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="field_empty">This field is required</string>
+    <string name="title_activity_edit_task">Edit Task</string>
+    <string name="description">A fast To-do list. Simple and useful tool for management of tasks and reminders.  You can create tasks with a title, date and description. The Agenda is very fast and clean. Made to be easy to use.  The Agenda have three lists: Pending, Done and All, separating the done tasks of the others. Perfect for management and organize your tasks and reminders.</string>
+    <string name="phone_test_unique_id" translatable="false">e5564116db773c7b</string>
+    <string name="DoctorSpec">Select Doctor Speciality</string>
+
+    <string-array name="alarm_array">
+        <item>Alarm1</item>
+        <item>Alarm2</item>
+        <item>Alarm3</item>
+
+
+    </string-array>
+
+
+    <!--Doctor Patients Activity--> 
+    <string name="doctor_patients_title">Patients</string>  
+
+    <!--Doctor Patients Detail Activity--> 
+
+    <string name="doctor_patient_detail_title">Patient Details</string> 
+    <string name="card_det_patient_gender">Gender</string> 
+    <string name="card_det_patient_dob">Date of Birth</string>
+     <string name="card_det_patient_age">Age</string>
+     <string name="card_det_patient_address">Address</string>
+     <string name="card_det_patient_contact">Contact</string>
+     <string name="card_det_patient_email">Email Id</string>
+     <string name="card_det_patient_weight">Weight</string>
+
+
+
+    <!--Patient Doctors Activity--> 
+    <string name="patient_doctors_title">Doctors</string>  
+
+    <!--Patient Add Doctor-->
+    <string name="patient_add_doctor_title">Add Doctors</string>
+    <string name="patient_doctor_speciality">Speciality</string>
+    <string name="patient_doctor">Doctor</string>
+
+    <string name="pat_doc_dialog_success">Doctor added successfully.</string>
+    <string name="pat_doc_dialog_failure">Association not added. Try again!</string>
+    <string name="pat_add_doc_dialog_ok">ok</string>
+
+    <!--Patients Doctor Detail Activity-->
+
+    <string name="patient_doctor_detail_title">Doctor Details</string>
+     <string name="card_det_doctor_contact">Contact</string>
+     <string name="card_det_doctor_email">Email Id</string>
+     <string name="card_det_doctor_spec">Specialization</string>
+     <string name="card_det_doctor_address">Address</string>
+     <string name="card_det_doctor_dob">Date of Birth</string>
+     <string name="card_det_doctor_licenseno">License Number</string>
+    <string name="card_det_doctor_gender">Gender</string>
+    <string name="pat_request_health_btn">Request Health Data</string>
+    <string name="pat_view_health_btn">View Health Data</string>
+
+
+    <string name="app_label">Add Emergency Contact</string>
+    <string name="emergency_contact_label">Emergency Contact</string>
+    <string name="appoitnment_label">Appointments List</string>
+    <string name="reminder_label">Reminders List</string>
+    <string name="doctor_label">Doctors List</string>
+
+    <string name="firstname_label">Firstname:</string>
+    <string name="lastname_label">Lastname:</string>
+    <string name="EmailID_label">Email Id:</string>
+    <string name="Contact_label">Contact:</string>
+    <string name="Address_label">Address:</string>
+    <string name="relation_label">Relation:</string>
+    <string name="password_label">Password:</string>
+
+    <string name="btn_login_label">Login</string>
+    <string name="btn_add_label">ADD</string>
+    <string name="btn_saveEC_label">Save</string>
+    <string name="btn_deleteEC_label">Delete</string>
+    <string name="btn_addEC">Delete</string>
+    <string name="btn_viewApt_label">View</string>
+    <string name="btn_cancelApt_label">Cancel</string>
+    <string name="btn_viewDoc_label">View</string>
+    <string name="btn_deleteDoc_label">Delete</string>
+    <string name="btn_viewRem_label">View</string>
+    <string name="btn_deleteRem_label">Delete</string>
+
+
+    <!--Doctor Health Data Requests-->
+    <string name="doc_health_req_title">Health Data Requests</string>
+    <string name="doc_health_req_desc">Health Data Description</string>
+    <string name="dialog_request_title">Request</string>
+    <string name="doc_health_req_ok">OK</string>
+    <string name="doc_health_req_cancel">Cancel</string>
+    <string name="doc_health_req_success">Requests sent to the patient successfully.</string>
+    <string name="doc_health_req_failure">Request is not sent. Please try again!</string>
+    <string name="dialog_health_msg_ok">OK</string>
+
+
+    <!--Patient Health Data Requests-->
+    <string name="patient_health_req_title">Health Data Requests</string>
+
+
+
+
+
+</resources>

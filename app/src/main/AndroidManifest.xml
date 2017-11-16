@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.manage.hospital.hmapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme">
+        <activity android:name=".ui.doctor.DoctorMainActivity">
+
+        </activity>
+
+        <activity
+            android:name="com.manage.hospital.hmapp.ui.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.manage.hospital.hmapp.ui.Registration"
+            android:label="Registration" >
+        </activity>
+
+        <activity
+            android:name=".ui.doctor.DoctorRegistration"
+            android:label="Registration For Doctor" >
+        </activity>
+
+        <activity
+            android:name=".ui.patient.PatientRegistration"
+            android:label="Registration For Patient" >
+        </activity>
+
+        <activity
+            android:name="com.manage.hospital.hmapp.ui.LoginActivity"
+            android:label="Login">
+        </activity>
+
+        <activity
+            android:name="com.manage.hospital.hmapp.ui.HomeActivity"
+            android:label="Opening Page" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.AppointmentActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.patient.PatientAddAppointmentActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.patient.PatientAppointmentActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.doctor.AppointmentDetailActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.doctor.PatientActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.patient.DoctorDetailActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ui.patient.ActivityHealthDataRequests"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ui.patient.PatientMainActivity"
+            android:theme="@style/NoActionBarTheme" />
+
+        <activity
+            android:label="Emergency Contact"
+            android:name=".ui.patient.ManageEmergencyContactActivity" >
+        </activity>
+        <activity
+            android:label="Appointment"
+            android:name=".ui.patient.ManageAppointmentActivity" >
+        </activity>
+        <activity
+            android:name=".ui.patient.PatientSourceActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.doctor.PatientDetailActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.patient.PatientAddDoctorActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.patient.FitbitActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".ui.patient.DoctorActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.patient.ReminderMainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ui.patient.NewTaskActivity"
+            android:label="@string/title_activity_new_task"
+            android:parentActivityName=".ui.patient.ReminderMainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.patient.ReminderMainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.patient.EditViewActivity"
+            android:label="@string/title_activity_edit_task"
+            android:parentActivityName=".ui.patient.EditViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.patient.ReminderMainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.patient.ViewTaskActivity"
+            android:label="@string/title_activity_view_task"
+            android:parentActivityName=".ui.patient.ReminderMainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.patient.ReminderMainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.patient.AlarmActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".Extras.broadcast_receiver.Alarm_Receiver" />
+
+        <service
+            android:name=".Extras.broadcast_receiver.RingtonePlayingService"
+            android:enabled="true"></service>
+
+        <activity android:name=".Extras.fitbit.FitbitTokenResponse"
+            android:theme="@style/NoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="hospapp" android:host="callbackresponse"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".Extras.broadcast_receiver.FallDetectService"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>
