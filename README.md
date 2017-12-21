@@ -3,5 +3,5 @@ This application acts as a bridge between patients and doctors. Using the applic
 
 ![Screenshot](/MainPage.png?raw=true)                                                                                     
 
-<img src="/DoctorDashboard.png" alt="Doctor Dashboard" height="70px" width="80px" >
+<img src="/DoctorDashboard.png" alt="Doctor Dashboard" height="200px" width="150px" >
 
