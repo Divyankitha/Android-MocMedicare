@@ -3,7 +3,8 @@ This application acts as a bridge between patients and doctors. Using the applic
 
  ![Screenshot](/MainPage.png?raw=true)
  
-!(Android-MocMedicare/DoctorDashboard.png "Dashboard for a Doctor")
+!(/DoctorDashboard.png "Dashboard for a Doctor")
+
 !(Android-MocMedicare/PatientDashboard.png "Dashboard for a Patient")
 !(Android-MocMedicare/DoctorMenu.png "Menu/Options for Doctor")
 !(Android-MocMedicare/PatientMenu.png "Menu/Options for Patient")
